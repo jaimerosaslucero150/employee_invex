@@ -1,0 +1,997 @@
+2026-03-06T06:25:42.922-06:00  INFO 23568 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Starting EmployeeInvexApplication using Java 17 with PID 23568 (D:\Desarrollo\invex\employee_invex\target\classes started by Enrique in D:\Desarrollo\invex\employee_invex)
+2026-03-06T06:25:42.929-06:00  INFO 23568 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-03-06T06:25:42.975-06:00  INFO 23568 --- [employee_invex] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-06T06:25:42.975-06:00  INFO 23568 --- [employee_invex] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-06T06:25:43.828-06:00  INFO 23568 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-06T06:25:43.888-06:00  INFO 23568 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+2026-03-06T06:25:44.581-06:00  INFO 23568 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-06T06:25:44.595-06:00  INFO 23568 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-06T06:25:44.595-06:00  INFO 23568 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-06T06:25:44.653-06:00  INFO 23568 --- [employee_invex] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-06T06:25:44.654-06:00  INFO 23568 --- [employee_invex] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1678 ms
+2026-03-06T06:25:44.809-06:00  INFO 23568 --- [employee_invex] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-06T06:25:44.860-06:00  INFO 23568 --- [employee_invex] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-06T06:25:44.900-06:00  INFO 23568 --- [employee_invex] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-06T06:25:45.165-06:00  INFO 23568 --- [employee_invex] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-06T06:25:45.202-06:00  INFO 23568 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-06T06:25:45.523-06:00  INFO 23568 --- [employee_invex] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@470cfa7c
+2026-03-06T06:25:45.526-06:00  INFO 23568 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-06T06:25:45.580-06:00  WARN 23568 --- [employee_invex] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-06T06:25:45.601-06:00  INFO 23568 --- [employee_invex] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-06T06:25:46.382-06:00  INFO 23568 --- [employee_invex] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-06T06:25:46.442-06:00  INFO 23568 --- [employee_invex] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:25:46.735-06:00  WARN 23568 --- [employee_invex] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-06T06:25:47.088-06:00  INFO 23568 --- [employee_invex] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-03-06T06:25:47.120-06:00  INFO 23568 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-03-06T06:25:47.131-06:00  INFO 23568 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Started EmployeeInvexApplication in 4.591 seconds (process running for 5.211)
+2026-03-06T06:26:04.266-06:00  INFO 23568 --- [employee_invex] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06T06:26:04.266-06:00  INFO 23568 --- [employee_invex] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-06T06:26:04.268-06:00  INFO 23568 --- [employee_invex] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-03-06T06:26:04.721-06:00 ERROR 23568 --- [employee_invex] [http-nio-8080-exec-8] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed: java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdviceBean.<init>(java.lang.Object)'] with root cause
+
+java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdviceBean.<init>(java.lang.Object)'
+	at org.springdoc.core.service.GenericResponseService.lambda$getGenericMapResponse$8(GenericResponseService.java:702) ~[springdoc-openapi-starter-common-2.3.0.jar:2.3.0]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178) ~[na:na]
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[na:na]
+	at org.springdoc.core.service.GenericResponseService.getGenericMapResponse(GenericResponseService.java:704) ~[springdoc-openapi-starter-common-2.3.0.jar:2.3.0]
+	at org.springdoc.core.service.GenericResponseService.build(GenericResponseService.java:246) ~[springdoc-openapi-starter-common-2.3.0.jar:2.3.0]
+	at org.springdoc.api.AbstractOpenApiResource.calculatePath(AbstractOpenApiResource.java:499) ~[springdoc-openapi-starter-common-2.3.0.jar:2.3.0]
+	at org.springdoc.api.AbstractOpenApiResource.calculatePath(AbstractOpenApiResource.java:676) ~[springdoc-openapi-starter-common-2.3.0.jar:2.3.0]
+	at org.springdoc.webmvc.api.OpenApiResource.lambda$calculatePath$11(OpenApiResource.java:219) ~[springdoc-openapi-starter-webmvc-api-2.3.0.jar:2.3.0]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[na:na]
+	at org.springdoc.webmvc.api.OpenApiResource.calculatePath(OpenApiResource.java:200) ~[springdoc-openapi-starter-webmvc-api-2.3.0.jar:2.3.0]
+	at org.springdoc.webmvc.api.OpenApiResource.lambda$getPaths$2(OpenApiResource.java:170) ~[springdoc-openapi-starter-webmvc-api-2.3.0.jar:2.3.0]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[na:na]
+	at org.springdoc.webmvc.api.OpenApiResource.getPaths(OpenApiResource.java:149) ~[springdoc-openapi-starter-webmvc-api-2.3.0.jar:2.3.0]
+	at org.springdoc.api.AbstractOpenApiResource.getOpenApi(AbstractOpenApiResource.java:353) ~[springdoc-openapi-starter-common-2.3.0.jar:2.3.0]
+	at org.springdoc.webmvc.api.OpenApiResource.openapiJson(OpenApiResource.java:124) ~[springdoc-openapi-starter-webmvc-api-2.3.0.jar:2.3.0]
+	at org.springdoc.webmvc.api.OpenApiWebMvcResource.openapiJson(OpenApiWebMvcResource.java:111) ~[springdoc-openapi-starter-webmvc-api-2.3.0.jar:2.3.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.52.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.52.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2026-03-06T06:28:21.413-06:00  INFO 13536 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Starting EmployeeInvexApplication using Java 17 with PID 13536 (D:\Desarrollo\invex\employee_invex\target\classes started by Enrique in D:\Desarrollo\invex\employee_invex)
+2026-03-06T06:28:21.416-06:00  INFO 13536 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-03-06T06:28:21.465-06:00  INFO 13536 --- [employee_invex] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-06T06:28:21.465-06:00  INFO 13536 --- [employee_invex] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-06T06:28:22.420-06:00  INFO 13536 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-06T06:28:22.485-06:00  INFO 13536 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interface.
+2026-03-06T06:28:23.207-06:00  INFO 13536 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-06T06:28:23.224-06:00  INFO 13536 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-06T06:28:23.225-06:00  INFO 13536 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-06T06:28:23.293-06:00  INFO 13536 --- [employee_invex] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-06T06:28:23.294-06:00  INFO 13536 --- [employee_invex] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1828 ms
+2026-03-06T06:28:23.470-06:00  INFO 13536 --- [employee_invex] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-06T06:28:23.522-06:00  INFO 13536 --- [employee_invex] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-06T06:28:23.566-06:00  INFO 13536 --- [employee_invex] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-06T06:28:23.849-06:00  INFO 13536 --- [employee_invex] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-06T06:28:23.878-06:00  INFO 13536 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-06T06:28:24.217-06:00  INFO 13536 --- [employee_invex] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79a00c86
+2026-03-06T06:28:24.220-06:00  INFO 13536 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-06T06:28:24.273-06:00  WARN 13536 --- [employee_invex] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-06T06:28:24.298-06:00  INFO 13536 --- [employee_invex] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-06T06:28:25.261-06:00  INFO 13536 --- [employee_invex] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-06T06:28:25.324-06:00  INFO 13536 --- [employee_invex] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:28:25.750-06:00  WARN 13536 --- [employee_invex] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-06T06:28:26.220-06:00  INFO 13536 --- [employee_invex] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-03-06T06:28:26.263-06:00  INFO 13536 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-03-06T06:28:26.275-06:00  INFO 13536 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Started EmployeeInvexApplication in 5.246 seconds (process running for 5.781)
+2026-03-06T06:28:41.813-06:00  INFO 1000 --- [employee_invex] [main] m.c.i.e.EmployeeInvexApplicationTests    : Starting EmployeeInvexApplicationTests using Java 17 with PID 1000 (started by Enrique in D:\Desarrollo\invex\employee_invex)
+2026-03-06T06:28:41.815-06:00  INFO 1000 --- [employee_invex] [main] m.c.i.e.EmployeeInvexApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2026-03-06T06:28:42.564-06:00  INFO 1000 --- [employee_invex] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-06T06:28:42.627-06:00  INFO 1000 --- [employee_invex] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+2026-03-06T06:28:43.051-06:00  INFO 1000 --- [employee_invex] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-06T06:28:43.105-06:00  INFO 1000 --- [employee_invex] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-06T06:28:43.141-06:00  INFO 1000 --- [employee_invex] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-06T06:28:43.464-06:00  INFO 1000 --- [employee_invex] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-06T06:28:43.497-06:00  INFO 1000 --- [employee_invex] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-06T06:28:43.777-06:00  INFO 1000 --- [employee_invex] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@688d619c
+2026-03-06T06:28:43.778-06:00  INFO 1000 --- [employee_invex] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-06T06:28:43.824-06:00  WARN 1000 --- [employee_invex] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-06T06:28:43.845-06:00  INFO 1000 --- [employee_invex] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-06T06:28:44.569-06:00  INFO 1000 --- [employee_invex] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-06T06:28:44.616-06:00  INFO 1000 --- [employee_invex] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:28:44.946-06:00  WARN 1000 --- [employee_invex] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-06T06:28:45.341-06:00  INFO 1000 --- [employee_invex] [main] m.c.i.e.EmployeeInvexApplicationTests    : Started EmployeeInvexApplicationTests in 3.896 seconds (process running for 4.821)
+2026-03-06T06:28:45.785-06:00  INFO 1000 --- [employee_invex] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:28:45.788-06:00  INFO 1000 --- [employee_invex] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-06T06:28:45.797-06:00  INFO 1000 --- [employee_invex] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-06T06:29:40.083-06:00  INFO 4152 --- [employee_invex] [main] m.c.i.e.EmployeeInvexApplicationTests    : Starting EmployeeInvexApplicationTests using Java 17 with PID 4152 (started by Enrique in D:\Desarrollo\invex\employee_invex)
+2026-03-06T06:29:40.085-06:00  INFO 4152 --- [employee_invex] [main] m.c.i.e.EmployeeInvexApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2026-03-06T06:29:40.879-06:00  INFO 4152 --- [employee_invex] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-06T06:29:40.963-06:00  INFO 4152 --- [employee_invex] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interface.
+2026-03-06T06:29:41.386-06:00  INFO 4152 --- [employee_invex] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-06T06:29:41.436-06:00  INFO 4152 --- [employee_invex] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-06T06:29:41.470-06:00  INFO 4152 --- [employee_invex] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-06T06:29:41.778-06:00  INFO 4152 --- [employee_invex] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-06T06:29:41.806-06:00  INFO 4152 --- [employee_invex] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-06T06:29:42.116-06:00  INFO 4152 --- [employee_invex] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@57b130f6
+2026-03-06T06:29:42.118-06:00  INFO 4152 --- [employee_invex] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-06T06:29:42.166-06:00  WARN 4152 --- [employee_invex] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-06T06:29:42.188-06:00  INFO 4152 --- [employee_invex] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-06T06:29:42.934-06:00  INFO 4152 --- [employee_invex] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-06T06:29:42.981-06:00  INFO 4152 --- [employee_invex] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:29:43.302-06:00  WARN 4152 --- [employee_invex] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-06T06:29:43.785-06:00  INFO 4152 --- [employee_invex] [main] m.c.i.e.EmployeeInvexApplicationTests    : Started EmployeeInvexApplicationTests in 3.997 seconds (process running for 4.972)
+2026-03-06T06:29:44.310-06:00  INFO 4152 --- [employee_invex] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:29:44.312-06:00  INFO 4152 --- [employee_invex] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-06T06:29:44.320-06:00  INFO 4152 --- [employee_invex] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-06T06:29:50.076-06:00  INFO 3040 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Starting EmployeeInvexApplication using Java 17 with PID 3040 (D:\Desarrollo\invex\employee_invex\target\classes started by Enrique in D:\Desarrollo\invex\employee_invex)
+2026-03-06T06:29:50.079-06:00  INFO 3040 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-03-06T06:29:50.128-06:00  INFO 3040 --- [employee_invex] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-06T06:29:50.129-06:00  INFO 3040 --- [employee_invex] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-06T06:29:51.041-06:00  INFO 3040 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-06T06:29:51.107-06:00  INFO 3040 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interface.
+2026-03-06T06:29:51.750-06:00  INFO 3040 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-06T06:29:51.763-06:00  INFO 3040 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-06T06:29:51.764-06:00  INFO 3040 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-06T06:29:51.819-06:00  INFO 3040 --- [employee_invex] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-06T06:29:51.820-06:00  INFO 3040 --- [employee_invex] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1690 ms
+2026-03-06T06:29:52.015-06:00  INFO 3040 --- [employee_invex] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-06T06:29:52.071-06:00  INFO 3040 --- [employee_invex] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-06T06:29:52.112-06:00  INFO 3040 --- [employee_invex] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-06T06:29:52.347-06:00  INFO 3040 --- [employee_invex] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-06T06:29:52.377-06:00  INFO 3040 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-06T06:29:52.676-06:00  INFO 3040 --- [employee_invex] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3aedc6f4
+2026-03-06T06:29:52.679-06:00  INFO 3040 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-06T06:29:52.731-06:00  WARN 3040 --- [employee_invex] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-06T06:29:52.755-06:00  INFO 3040 --- [employee_invex] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-06T06:29:53.554-06:00  INFO 3040 --- [employee_invex] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-06T06:29:53.605-06:00  INFO 3040 --- [employee_invex] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:29:53.854-06:00  WARN 3040 --- [employee_invex] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-06T06:29:54.194-06:00  INFO 3040 --- [employee_invex] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-03-06T06:29:54.225-06:00  INFO 3040 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-03-06T06:29:54.237-06:00  INFO 3040 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Started EmployeeInvexApplication in 4.563 seconds (process running for 5.104)
+2026-03-06T06:30:01.109-06:00  INFO 3040 --- [employee_invex] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06T06:30:01.110-06:00  INFO 3040 --- [employee_invex] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-06T06:30:01.111-06:00  INFO 3040 --- [employee_invex] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-03-06T06:30:01.634-06:00 ERROR 3040 --- [employee_invex] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed: java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdviceBean.<init>(java.lang.Object)'] with root cause
+
+java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdviceBean.<init>(java.lang.Object)'
+	at org.springdoc.core.service.GenericResponseService.lambda$getGenericMapResponse$8(GenericResponseService.java:706) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178) ~[na:na]
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[na:na]
+	at org.springdoc.core.service.GenericResponseService.getGenericMapResponse(GenericResponseService.java:708) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
+	at org.springdoc.core.service.GenericResponseService.build(GenericResponseService.java:247) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
+	at org.springdoc.api.AbstractOpenApiResource.calculatePath(AbstractOpenApiResource.java:499) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
+	at org.springdoc.api.AbstractOpenApiResource.calculatePath(AbstractOpenApiResource.java:676) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
+	at org.springdoc.webmvc.api.OpenApiResource.lambda$calculatePath$11(OpenApiResource.java:220) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[na:na]
+	at org.springdoc.webmvc.api.OpenApiResource.calculatePath(OpenApiResource.java:201) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
+	at org.springdoc.webmvc.api.OpenApiResource.lambda$getPaths$2(OpenApiResource.java:171) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[na:na]
+	at org.springdoc.webmvc.api.OpenApiResource.getPaths(OpenApiResource.java:150) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
+	at org.springdoc.api.AbstractOpenApiResource.getOpenApi(AbstractOpenApiResource.java:353) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
+	at org.springdoc.webmvc.api.OpenApiResource.openapiJson(OpenApiResource.java:125) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
+	at org.springdoc.webmvc.api.OpenApiWebMvcResource.openapiJson(OpenApiWebMvcResource.java:114) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.52.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.52.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2026-03-06T06:31:13.906-06:00  INFO 3040 --- [employee_invex] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-03-06T06:31:13.909-06:00  INFO 3040 --- [employee_invex] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06T06:31:13.936-06:00  INFO 3040 --- [employee_invex] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-03-06T06:31:13.940-06:00  INFO 3040 --- [employee_invex] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:31:13.945-06:00  INFO 3040 --- [employee_invex] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-06T06:31:13.955-06:00  INFO 3040 --- [employee_invex] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-06T06:31:14.072-06:00  INFO 3040 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Starting EmployeeInvexApplication using Java 17 with PID 3040 (D:\Desarrollo\invex\employee_invex\target\classes started by Enrique in D:\Desarrollo\invex\employee_invex)
+2026-03-06T06:31:14.074-06:00  INFO 3040 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-03-06T06:31:14.311-06:00  INFO 3040 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-06T06:31:14.329-06:00  INFO 3040 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 1 JPA repository interface.
+2026-03-06T06:31:14.452-06:00  INFO 3040 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-06T06:31:14.453-06:00  INFO 3040 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-06T06:31:14.454-06:00  INFO 3040 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-06T06:31:14.485-06:00  INFO 3040 --- [employee_invex] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-06T06:31:14.486-06:00  INFO 3040 --- [employee_invex] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 409 ms
+2026-03-06T06:31:14.517-06:00  INFO 3040 --- [employee_invex] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-06T06:31:14.520-06:00  INFO 3040 --- [employee_invex] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-06T06:31:14.533-06:00  INFO 3040 --- [employee_invex] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-06T06:31:14.535-06:00  INFO 3040 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-03-06T06:31:14.550-06:00  INFO 3040 --- [employee_invex] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5ada81ba
+2026-03-06T06:31:14.551-06:00  INFO 3040 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-03-06T06:31:14.552-06:00  WARN 3040 --- [employee_invex] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-06T06:31:14.553-06:00  INFO 3040 --- [employee_invex] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-06T06:31:14.603-06:00  INFO 3040 --- [employee_invex] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-06T06:31:14.613-06:00  INFO 3040 --- [employee_invex] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:31:14.683-06:00  WARN 3040 --- [employee_invex] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-06T06:31:14.773-06:00  INFO 3040 --- [employee_invex] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-03-06T06:31:14.786-06:00  INFO 3040 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-03-06T06:31:14.789-06:00  INFO 3040 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Started EmployeeInvexApplication in 0.753 seconds (process running for 85.656)
+2026-03-06T06:31:14.792-06:00  INFO 3040 --- [employee_invex] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-03-06T06:31:21.698-06:00  INFO 3040 --- [employee_invex] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06T06:31:21.698-06:00  INFO 3040 --- [employee_invex] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-06T06:31:21.699-06:00  INFO 3040 --- [employee_invex] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-03-06T06:31:21.847-06:00 ERROR 3040 --- [employee_invex] [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed: java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdviceBean.<init>(java.lang.Object)'] with root cause
+
+java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdviceBean.<init>(java.lang.Object)'
+	at org.springdoc.core.service.GenericResponseService.lambda$getGenericMapResponse$8(GenericResponseService.java:706) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178) ~[na:na]
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[na:na]
+	at org.springdoc.core.service.GenericResponseService.getGenericMapResponse(GenericResponseService.java:708) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
+	at org.springdoc.core.service.GenericResponseService.build(GenericResponseService.java:247) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
+	at org.springdoc.api.AbstractOpenApiResource.calculatePath(AbstractOpenApiResource.java:499) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
+	at org.springdoc.api.AbstractOpenApiResource.calculatePath(AbstractOpenApiResource.java:676) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
+	at org.springdoc.webmvc.api.OpenApiResource.lambda$calculatePath$11(OpenApiResource.java:220) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[na:na]
+	at org.springdoc.webmvc.api.OpenApiResource.calculatePath(OpenApiResource.java:201) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
+	at org.springdoc.webmvc.api.OpenApiResource.lambda$getPaths$2(OpenApiResource.java:171) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[na:na]
+	at org.springdoc.webmvc.api.OpenApiResource.getPaths(OpenApiResource.java:150) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
+	at org.springdoc.api.AbstractOpenApiResource.getOpenApi(AbstractOpenApiResource.java:353) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
+	at org.springdoc.webmvc.api.OpenApiResource.openapiJson(OpenApiResource.java:125) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
+	at org.springdoc.webmvc.api.OpenApiWebMvcResource.openapiJson(OpenApiWebMvcResource.java:114) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.52.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.52.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2026-03-06T06:33:19.640-06:00  INFO 11508 --- [employee_invex] [main] m.c.i.e.EmployeeInvexApplicationTests    : Starting EmployeeInvexApplicationTests using Java 17 with PID 11508 (started by Enrique in D:\Desarrollo\invex\employee_invex)
+2026-03-06T06:33:19.641-06:00  INFO 11508 --- [employee_invex] [main] m.c.i.e.EmployeeInvexApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2026-03-06T06:33:20.339-06:00  INFO 11508 --- [employee_invex] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-06T06:33:20.395-06:00  INFO 11508 --- [employee_invex] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
+2026-03-06T06:33:20.795-06:00  INFO 11508 --- [employee_invex] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-06T06:33:20.838-06:00  INFO 11508 --- [employee_invex] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-06T06:33:20.875-06:00  INFO 11508 --- [employee_invex] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-06T06:33:21.198-06:00  INFO 11508 --- [employee_invex] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-06T06:33:21.230-06:00  INFO 11508 --- [employee_invex] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-06T06:33:21.498-06:00  INFO 11508 --- [employee_invex] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@772cf46b
+2026-03-06T06:33:21.500-06:00  INFO 11508 --- [employee_invex] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-06T06:33:21.541-06:00  WARN 11508 --- [employee_invex] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-06T06:33:21.557-06:00  INFO 11508 --- [employee_invex] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-06T06:33:22.253-06:00  INFO 11508 --- [employee_invex] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-06T06:33:22.290-06:00  INFO 11508 --- [employee_invex] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:33:22.624-06:00  WARN 11508 --- [employee_invex] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-06T06:33:22.998-06:00  INFO 11508 --- [employee_invex] [main] m.c.i.e.EmployeeInvexApplicationTests    : Started EmployeeInvexApplicationTests in 3.622 seconds (process running for 4.415)
+2026-03-06T06:33:23.342-06:00  INFO 11508 --- [employee_invex] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:33:23.345-06:00  INFO 11508 --- [employee_invex] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-06T06:33:23.353-06:00  INFO 11508 --- [employee_invex] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-06T06:35:10.803-06:00  INFO 9576 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Starting EmployeeInvexApplication using Java 17 with PID 9576 (D:\Desarrollo\invex\employee_invex\target\classes started by Enrique in D:\Desarrollo\invex\employee_invex)
+2026-03-06T06:35:10.806-06:00  INFO 9576 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-03-06T06:35:10.849-06:00  INFO 9576 --- [employee_invex] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-06T06:35:10.850-06:00  INFO 9576 --- [employee_invex] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-06T06:35:11.625-06:00  INFO 9576 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-06T06:35:11.688-06:00  INFO 9576 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interface.
+2026-03-06T06:35:12.284-06:00  INFO 9576 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-06T06:35:12.298-06:00  INFO 9576 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-06T06:35:12.298-06:00  INFO 9576 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-06T06:35:12.352-06:00  INFO 9576 --- [employee_invex] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-06T06:35:12.353-06:00  INFO 9576 --- [employee_invex] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1502 ms
+2026-03-06T06:35:12.496-06:00  INFO 9576 --- [employee_invex] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-06T06:35:12.545-06:00  INFO 9576 --- [employee_invex] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-06T06:35:12.574-06:00  INFO 9576 --- [employee_invex] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-06T06:35:12.849-06:00  INFO 9576 --- [employee_invex] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-06T06:35:12.878-06:00  INFO 9576 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-06T06:35:13.144-06:00  INFO 9576 --- [employee_invex] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4743d033
+2026-03-06T06:35:13.146-06:00  INFO 9576 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-06T06:35:13.187-06:00  WARN 9576 --- [employee_invex] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-06T06:35:13.207-06:00  INFO 9576 --- [employee_invex] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-06T06:35:13.886-06:00  INFO 9576 --- [employee_invex] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-06T06:35:13.928-06:00  INFO 9576 --- [employee_invex] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:35:14.194-06:00  WARN 9576 --- [employee_invex] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-06T06:35:14.545-06:00  INFO 9576 --- [employee_invex] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-03-06T06:35:14.583-06:00  INFO 9576 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-03-06T06:35:14.597-06:00  INFO 9576 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Started EmployeeInvexApplication in 4.2 seconds (process running for 4.717)
+2026-03-06T06:35:21.864-06:00  INFO 9576 --- [employee_invex] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06T06:35:21.865-06:00  INFO 9576 --- [employee_invex] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-06T06:35:21.866-06:00  INFO 9576 --- [employee_invex] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-03-06T06:35:22.129-06:00 ERROR 9576 --- [employee_invex] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed: java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdviceBean.<init>(java.lang.Object)'] with root cause
+
+java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdviceBean.<init>(java.lang.Object)'
+	at org.springdoc.core.service.GenericResponseService.lambda$getGenericMapResponse$8(GenericResponseService.java:702) ~[springdoc-openapi-starter-common-2.3.0.jar:2.3.0]
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:178) ~[na:na]
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:992) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:575) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:616) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:622) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:627) ~[na:na]
+	at org.springdoc.core.service.GenericResponseService.getGenericMapResponse(GenericResponseService.java:704) ~[springdoc-openapi-starter-common-2.3.0.jar:2.3.0]
+	at org.springdoc.core.service.GenericResponseService.build(GenericResponseService.java:246) ~[springdoc-openapi-starter-common-2.3.0.jar:2.3.0]
+	at org.springdoc.api.AbstractOpenApiResource.calculatePath(AbstractOpenApiResource.java:499) ~[springdoc-openapi-starter-common-2.3.0.jar:2.3.0]
+	at org.springdoc.api.AbstractOpenApiResource.calculatePath(AbstractOpenApiResource.java:676) ~[springdoc-openapi-starter-common-2.3.0.jar:2.3.0]
+	at org.springdoc.webmvc.api.OpenApiResource.lambda$calculatePath$11(OpenApiResource.java:219) ~[springdoc-openapi-starter-webmvc-api-2.3.0.jar:2.3.0]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[na:na]
+	at org.springdoc.webmvc.api.OpenApiResource.calculatePath(OpenApiResource.java:200) ~[springdoc-openapi-starter-webmvc-api-2.3.0.jar:2.3.0]
+	at org.springdoc.webmvc.api.OpenApiResource.lambda$getPaths$2(OpenApiResource.java:170) ~[springdoc-openapi-starter-webmvc-api-2.3.0.jar:2.3.0]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[na:na]
+	at org.springdoc.webmvc.api.OpenApiResource.getPaths(OpenApiResource.java:149) ~[springdoc-openapi-starter-webmvc-api-2.3.0.jar:2.3.0]
+	at org.springdoc.api.AbstractOpenApiResource.getOpenApi(AbstractOpenApiResource.java:353) ~[springdoc-openapi-starter-common-2.3.0.jar:2.3.0]
+	at org.springdoc.webmvc.api.OpenApiResource.openapiJson(OpenApiResource.java:124) ~[springdoc-openapi-starter-webmvc-api-2.3.0.jar:2.3.0]
+	at org.springdoc.webmvc.api.OpenApiWebMvcResource.openapiJson(OpenApiWebMvcResource.java:111) ~[springdoc-openapi-starter-webmvc-api-2.3.0.jar:2.3.0]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.52.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.16.jar:6.2.16]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.52.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.16.jar:6.2.16]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:138) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:165) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:88) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:492) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:113) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:83) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:72) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1775) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:973) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:491) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.52.jar:10.1.52]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2026-03-06T06:36:08.644-06:00  INFO 17768 --- [employee_invex] [main] m.c.i.e.EmployeeInvexApplicationTests    : Starting EmployeeInvexApplicationTests using Java 17 with PID 17768 (started by Enrique in D:\Desarrollo\invex\employee_invex)
+2026-03-06T06:36:08.646-06:00  INFO 17768 --- [employee_invex] [main] m.c.i.e.EmployeeInvexApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2026-03-06T06:36:09.339-06:00  INFO 17768 --- [employee_invex] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-06T06:36:09.396-06:00  INFO 17768 --- [employee_invex] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+2026-03-06T06:36:09.867-06:00  INFO 17768 --- [employee_invex] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-06T06:36:09.914-06:00  INFO 17768 --- [employee_invex] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-06T06:36:09.946-06:00  INFO 17768 --- [employee_invex] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-06T06:36:10.235-06:00  INFO 17768 --- [employee_invex] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-06T06:36:10.260-06:00  INFO 17768 --- [employee_invex] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-06T06:36:10.518-06:00  INFO 17768 --- [employee_invex] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@53e4a19e
+2026-03-06T06:36:10.519-06:00  INFO 17768 --- [employee_invex] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-06T06:36:10.560-06:00  WARN 17768 --- [employee_invex] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-06T06:36:10.578-06:00  INFO 17768 --- [employee_invex] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-06T06:36:11.270-06:00  INFO 17768 --- [employee_invex] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-06T06:36:11.310-06:00  INFO 17768 --- [employee_invex] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:36:11.604-06:00  WARN 17768 --- [employee_invex] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-06T06:36:11.997-06:00  INFO 17768 --- [employee_invex] [main] m.c.i.e.EmployeeInvexApplicationTests    : Started EmployeeInvexApplicationTests in 3.621 seconds (process running for 4.391)
+2026-03-06T06:36:12.000-06:00  INFO 17768 --- [employee_invex] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:36:12.002-06:00  INFO 17768 --- [employee_invex] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-06T06:36:12.009-06:00  INFO 17768 --- [employee_invex] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-06T06:36:26.128-06:00  INFO 14012 --- [employee_invex] [main] m.c.i.e.EmployeeInvexApplicationTests    : Starting EmployeeInvexApplicationTests using Java 17 with PID 14012 (started by Enrique in D:\Desarrollo\invex\employee_invex)
+2026-03-06T06:36:26.129-06:00  INFO 14012 --- [employee_invex] [main] m.c.i.e.EmployeeInvexApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2026-03-06T06:36:26.833-06:00  INFO 14012 --- [employee_invex] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-06T06:36:26.887-06:00  INFO 14012 --- [employee_invex] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
+2026-03-06T06:36:27.267-06:00  INFO 14012 --- [employee_invex] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-06T06:36:27.310-06:00  INFO 14012 --- [employee_invex] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-06T06:36:27.341-06:00  INFO 14012 --- [employee_invex] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-06T06:36:27.631-06:00  INFO 14012 --- [employee_invex] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-06T06:36:27.656-06:00  INFO 14012 --- [employee_invex] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-06T06:36:27.919-06:00  INFO 14012 --- [employee_invex] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a2035e1
+2026-03-06T06:36:27.921-06:00  INFO 14012 --- [employee_invex] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-06T06:36:27.961-06:00  WARN 14012 --- [employee_invex] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-06T06:36:27.980-06:00  INFO 14012 --- [employee_invex] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-06T06:36:28.665-06:00  INFO 14012 --- [employee_invex] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-06T06:36:28.705-06:00  INFO 14012 --- [employee_invex] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:36:28.996-06:00  WARN 14012 --- [employee_invex] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-06T06:36:29.350-06:00  INFO 14012 --- [employee_invex] [main] m.c.i.e.EmployeeInvexApplicationTests    : Started EmployeeInvexApplicationTests in 3.484 seconds (process running for 4.223)
+2026-03-06T06:36:29.695-06:00  INFO 14012 --- [employee_invex] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:36:29.698-06:00  INFO 14012 --- [employee_invex] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-06T06:36:29.706-06:00  INFO 14012 --- [employee_invex] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-06T06:37:55.908-06:00  INFO 14016 --- [employee_invex] [main] m.c.i.e.EmployeeInvexApplicationTests    : Starting EmployeeInvexApplicationTests using Java 17 with PID 14016 (started by Enrique in D:\Desarrollo\invex\employee_invex)
+2026-03-06T06:37:55.909-06:00  INFO 14016 --- [employee_invex] [main] m.c.i.e.EmployeeInvexApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2026-03-06T06:37:56.613-06:00  INFO 14016 --- [employee_invex] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-06T06:37:56.665-06:00  INFO 14016 --- [employee_invex] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interface.
+2026-03-06T06:37:57.038-06:00  INFO 14016 --- [employee_invex] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-06T06:37:57.086-06:00  INFO 14016 --- [employee_invex] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-06T06:37:57.121-06:00  INFO 14016 --- [employee_invex] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-06T06:37:57.394-06:00  INFO 14016 --- [employee_invex] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-06T06:37:57.419-06:00  INFO 14016 --- [employee_invex] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-06T06:37:57.683-06:00  INFO 14016 --- [employee_invex] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b4619a3
+2026-03-06T06:37:57.685-06:00  INFO 14016 --- [employee_invex] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-06T06:37:57.725-06:00  WARN 14016 --- [employee_invex] [main] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-06T06:37:57.742-06:00  INFO 14016 --- [employee_invex] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-06T06:37:58.423-06:00  INFO 14016 --- [employee_invex] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-06T06:37:58.467-06:00  INFO 14016 --- [employee_invex] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:37:58.766-06:00  WARN 14016 --- [employee_invex] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-06T06:37:59.115-06:00  INFO 14016 --- [employee_invex] [main] m.c.i.e.EmployeeInvexApplicationTests    : Started EmployeeInvexApplicationTests in 3.464 seconds (process running for 4.251)
+2026-03-06T06:37:59.480-06:00  INFO 14016 --- [employee_invex] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:37:59.484-06:00  INFO 14016 --- [employee_invex] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-06T06:37:59.492-06:00  INFO 14016 --- [employee_invex] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-06T06:38:08.033-06:00  INFO 23600 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Starting EmployeeInvexApplication using Java 17 with PID 23600 (D:\Desarrollo\invex\employee_invex\target\classes started by Enrique in D:\Desarrollo\invex\employee_invex)
+2026-03-06T06:38:08.036-06:00  INFO 23600 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-03-06T06:38:08.081-06:00  INFO 23600 --- [employee_invex] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-06T06:38:08.082-06:00  INFO 23600 --- [employee_invex] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-06T06:38:08.967-06:00  INFO 23600 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-06T06:38:09.030-06:00  INFO 23600 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interface.
+2026-03-06T06:38:09.652-06:00  INFO 23600 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-06T06:38:09.665-06:00  INFO 23600 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-06T06:38:09.665-06:00  INFO 23600 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-06T06:38:09.720-06:00  INFO 23600 --- [employee_invex] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-06T06:38:09.721-06:00  INFO 23600 --- [employee_invex] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1639 ms
+2026-03-06T06:38:09.874-06:00  INFO 23600 --- [employee_invex] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-06T06:38:09.928-06:00  INFO 23600 --- [employee_invex] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-06T06:38:09.957-06:00  INFO 23600 --- [employee_invex] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-06T06:38:10.195-06:00  INFO 23600 --- [employee_invex] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-06T06:38:10.222-06:00  INFO 23600 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-06T06:38:10.497-06:00  INFO 23600 --- [employee_invex] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3aedc6f4
+2026-03-06T06:38:10.499-06:00  INFO 23600 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-06T06:38:10.552-06:00  WARN 23600 --- [employee_invex] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-06T06:38:10.596-06:00  INFO 23600 --- [employee_invex] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-06T06:38:11.335-06:00  INFO 23600 --- [employee_invex] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-06T06:38:11.408-06:00  INFO 23600 --- [employee_invex] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:38:11.669-06:00  WARN 23600 --- [employee_invex] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-06T06:38:12.012-06:00  INFO 23600 --- [employee_invex] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-03-06T06:38:12.043-06:00  INFO 23600 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-03-06T06:38:12.054-06:00  INFO 23600 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Started EmployeeInvexApplication in 4.411 seconds (process running for 4.925)
+2026-03-06T06:38:21.259-06:00  INFO 23600 --- [employee_invex] [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06T06:38:21.262-06:00  INFO 23600 --- [employee_invex] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-06T06:38:21.264-06:00  INFO 23600 --- [employee_invex] [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-03-06T06:38:21.733-06:00  INFO 23600 --- [employee_invex] [http-nio-8080-exec-1] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 279 ms
+2026-03-06T06:38:43.924-06:00  INFO 8832 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Starting EmployeeInvexApplication using Java 17 with PID 8832 (D:\Desarrollo\invex\employee_invex\target\classes started by Enrique in D:\Desarrollo\invex\employee_invex)
+2026-03-06T06:38:43.927-06:00  INFO 8832 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-03-06T06:38:43.972-06:00  INFO 8832 --- [employee_invex] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-06T06:38:43.973-06:00  INFO 8832 --- [employee_invex] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-06T06:38:44.811-06:00  INFO 8832 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-06T06:38:44.871-06:00  INFO 8832 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+2026-03-06T06:38:45.498-06:00  INFO 8832 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-06T06:38:45.510-06:00  INFO 8832 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-06T06:38:45.511-06:00  INFO 8832 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-06T06:38:45.562-06:00  INFO 8832 --- [employee_invex] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-06T06:38:45.563-06:00  INFO 8832 --- [employee_invex] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1589 ms
+2026-03-06T06:38:45.709-06:00  INFO 8832 --- [employee_invex] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-06T06:38:45.784-06:00  INFO 8832 --- [employee_invex] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-06T06:38:45.833-06:00  INFO 8832 --- [employee_invex] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-06T06:38:46.085-06:00  INFO 8832 --- [employee_invex] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-06T06:38:46.114-06:00  INFO 8832 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-06T06:38:46.404-06:00  INFO 8832 --- [employee_invex] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5122d1b
+2026-03-06T06:38:46.406-06:00  INFO 8832 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-06T06:38:46.453-06:00  WARN 8832 --- [employee_invex] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-06T06:38:46.475-06:00  INFO 8832 --- [employee_invex] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-06T06:38:47.218-06:00  INFO 8832 --- [employee_invex] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-06T06:38:47.270-06:00  INFO 8832 --- [employee_invex] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:38:47.520-06:00  WARN 8832 --- [employee_invex] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-06T06:38:47.861-06:00  INFO 8832 --- [employee_invex] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-03-06T06:38:47.892-06:00  INFO 8832 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-03-06T06:38:47.903-06:00  INFO 8832 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Started EmployeeInvexApplication in 4.376 seconds (process running for 4.886)
+2026-03-06T06:38:50.676-06:00  INFO 8832 --- [employee_invex] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06T06:38:50.677-06:00  INFO 8832 --- [employee_invex] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-06T06:38:50.678-06:00  INFO 8832 --- [employee_invex] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-03-06T06:38:51.210-06:00  INFO 8832 --- [employee_invex] [http-nio-8080-exec-5] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 371 ms
+2026-03-06T06:40:07.735-06:00  INFO 23896 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Starting EmployeeInvexApplication using Java 17 with PID 23896 (D:\Desarrollo\invex\employee_invex\target\classes started by Enrique in D:\Desarrollo\invex\employee_invex)
+2026-03-06T06:40:07.737-06:00  INFO 23896 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-03-06T06:40:07.778-06:00  INFO 23896 --- [employee_invex] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-06T06:40:07.779-06:00  INFO 23896 --- [employee_invex] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-06T06:40:08.586-06:00  INFO 23896 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-06T06:40:08.649-06:00  INFO 23896 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interface.
+2026-03-06T06:40:09.256-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-06T06:40:09.269-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-06T06:40:09.270-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-06T06:40:09.327-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-06T06:40:09.327-06:00  INFO 23896 --- [employee_invex] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1547 ms
+2026-03-06T06:40:09.482-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-06T06:40:09.537-06:00  INFO 23896 --- [employee_invex] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-06T06:40:09.569-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-06T06:40:09.801-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-06T06:40:09.830-06:00  INFO 23896 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-06T06:40:10.107-06:00  INFO 23896 --- [employee_invex] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c88ad5b
+2026-03-06T06:40:10.110-06:00  INFO 23896 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-06T06:40:10.150-06:00  WARN 23896 --- [employee_invex] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-06T06:40:10.173-06:00  INFO 23896 --- [employee_invex] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-06T06:40:10.954-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-06T06:40:11.016-06:00  INFO 23896 --- [employee_invex] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:40:11.307-06:00  WARN 23896 --- [employee_invex] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-06T06:40:11.686-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-03-06T06:40:11.720-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-03-06T06:40:11.732-06:00  INFO 23896 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Started EmployeeInvexApplication in 4.378 seconds (process running for 4.91)
+2026-03-06T06:40:15.676-06:00  INFO 23896 --- [employee_invex] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06T06:40:15.676-06:00  INFO 23896 --- [employee_invex] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-06T06:40:15.678-06:00  INFO 23896 --- [employee_invex] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-03-06T06:40:16.233-06:00  INFO 23896 --- [employee_invex] [http-nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 322 ms
+2026-03-06T06:42:33.404-06:00  INFO 23896 --- [employee_invex] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-03-06T06:42:33.407-06:00  INFO 23896 --- [employee_invex] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06T06:42:33.434-06:00  INFO 23896 --- [employee_invex] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-03-06T06:42:33.437-06:00  INFO 23896 --- [employee_invex] [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:42:33.441-06:00  INFO 23896 --- [employee_invex] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-06T06:42:33.448-06:00  INFO 23896 --- [employee_invex] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-06T06:42:33.545-06:00  INFO 23896 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Starting EmployeeInvexApplication using Java 17 with PID 23896 (D:\Desarrollo\invex\employee_invex\target\classes started by Enrique in D:\Desarrollo\invex\employee_invex)
+2026-03-06T06:42:33.546-06:00  INFO 23896 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-03-06T06:42:33.825-06:00  INFO 23896 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-06T06:42:33.839-06:00  INFO 23896 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JPA repository interface.
+2026-03-06T06:42:33.959-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-06T06:42:33.961-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-06T06:42:33.961-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-06T06:42:33.995-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-06T06:42:33.996-06:00  INFO 23896 --- [employee_invex] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 448 ms
+2026-03-06T06:42:34.027-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-06T06:42:34.030-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-06T06:42:34.042-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-06T06:42:34.043-06:00  INFO 23896 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-03-06T06:42:34.058-06:00  INFO 23896 --- [employee_invex] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d99610
+2026-03-06T06:42:34.059-06:00  INFO 23896 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-03-06T06:42:34.060-06:00  WARN 23896 --- [employee_invex] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-06T06:42:34.061-06:00  INFO 23896 --- [employee_invex] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-06T06:42:34.111-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-06T06:42:34.122-06:00  INFO 23896 --- [employee_invex] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:42:34.195-06:00  WARN 23896 --- [employee_invex] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-06T06:42:34.298-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-03-06T06:42:34.313-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-03-06T06:42:34.318-06:00  INFO 23896 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Started EmployeeInvexApplication in 0.805 seconds (process running for 147.497)
+2026-03-06T06:42:34.322-06:00  INFO 23896 --- [employee_invex] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-03-06T06:43:02.055-06:00  INFO 23896 --- [employee_invex] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06T06:43:02.055-06:00  INFO 23896 --- [employee_invex] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-06T06:43:02.056-06:00  INFO 23896 --- [employee_invex] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-03-06T06:43:02.305-06:00  INFO 23896 --- [employee_invex] [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 120 ms
+2026-03-06T06:43:42.861-06:00  INFO 23896 --- [employee_invex] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-03-06T06:43:42.863-06:00  INFO 23896 --- [employee_invex] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-06T06:43:42.888-06:00  INFO 23896 --- [employee_invex] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-03-06T06:43:42.890-06:00  INFO 23896 --- [employee_invex] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:43:42.891-06:00  INFO 23896 --- [employee_invex] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-03-06T06:43:42.895-06:00  INFO 23896 --- [employee_invex] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-03-06T06:43:42.996-06:00  INFO 23896 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Starting EmployeeInvexApplication using Java 17 with PID 23896 (D:\Desarrollo\invex\employee_invex\target\classes started by Enrique in D:\Desarrollo\invex\employee_invex)
+2026-03-06T06:43:42.997-06:00  INFO 23896 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-03-06T06:43:43.222-06:00  INFO 23896 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-06T06:43:43.234-06:00  INFO 23896 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 1 JPA repository interface.
+2026-03-06T06:43:43.339-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-06T06:43:43.341-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-06T06:43:43.341-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-06T06:43:43.370-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-06T06:43:43.370-06:00  INFO 23896 --- [employee_invex] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 370 ms
+2026-03-06T06:43:43.399-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-06T06:43:43.401-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-06T06:43:43.408-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-06T06:43:43.409-06:00  INFO 23896 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-03-06T06:43:43.424-06:00  INFO 23896 --- [employee_invex] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@143db28d
+2026-03-06T06:43:43.424-06:00  INFO 23896 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-03-06T06:43:43.426-06:00  WARN 23896 --- [employee_invex] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-06T06:43:43.426-06:00  INFO 23896 --- [employee_invex] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-06T06:43:43.477-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-06T06:43:43.487-06:00  INFO 23896 --- [employee_invex] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:43:43.550-06:00  WARN 23896 --- [employee_invex] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-06T06:43:43.622-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-03-06T06:43:43.632-06:00  INFO 23896 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-03-06T06:43:43.636-06:00  INFO 23896 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Started EmployeeInvexApplication in 0.694 seconds (process running for 216.814)
+2026-03-06T06:43:43.637-06:00  INFO 23896 --- [employee_invex] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-03-06T06:43:48.408-06:00  INFO 23896 --- [employee_invex] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06T06:43:48.408-06:00  INFO 23896 --- [employee_invex] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-06T06:43:48.409-06:00  INFO 23896 --- [employee_invex] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-03-06T06:43:48.596-06:00  INFO 23896 --- [employee_invex] [http-nio-8080-exec-3] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 90 ms
+2026-03-06T06:46:06.392-06:00  INFO 26028 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Starting EmployeeInvexApplication using Java 17 with PID 26028 (D:\Desarrollo\invex\employee_invex\target\classes started by Enrique in D:\Desarrollo\invex\employee_invex)
+2026-03-06T06:46:06.395-06:00  INFO 26028 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-03-06T06:46:06.435-06:00  INFO 26028 --- [employee_invex] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-06T06:46:06.435-06:00  INFO 26028 --- [employee_invex] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-06T06:46:07.244-06:00  INFO 26028 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-06T06:46:07.303-06:00  INFO 26028 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+2026-03-06T06:46:07.929-06:00  INFO 26028 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-06T06:46:07.948-06:00  INFO 26028 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-06T06:46:07.949-06:00  INFO 26028 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-06T06:46:08.003-06:00  INFO 26028 --- [employee_invex] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-06T06:46:08.003-06:00  INFO 26028 --- [employee_invex] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1567 ms
+2026-03-06T06:46:08.144-06:00  INFO 26028 --- [employee_invex] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-06T06:46:08.191-06:00  INFO 26028 --- [employee_invex] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-06T06:46:08.231-06:00  INFO 26028 --- [employee_invex] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-06T06:46:08.457-06:00  INFO 26028 --- [employee_invex] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-06T06:46:08.485-06:00  INFO 26028 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-06T06:46:08.757-06:00  INFO 26028 --- [employee_invex] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6fa2fe8c
+2026-03-06T06:46:08.759-06:00  INFO 26028 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-06T06:46:08.801-06:00  WARN 26028 --- [employee_invex] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-06T06:46:08.819-06:00  INFO 26028 --- [employee_invex] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-06T06:46:09.507-06:00  INFO 26028 --- [employee_invex] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-06T06:46:09.552-06:00  INFO 26028 --- [employee_invex] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:46:09.814-06:00  WARN 26028 --- [employee_invex] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-06T06:46:10.195-06:00  INFO 26028 --- [employee_invex] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-03-06T06:46:10.232-06:00  INFO 26028 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-03-06T06:46:10.242-06:00  INFO 26028 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Started EmployeeInvexApplication in 4.232 seconds (process running for 4.716)
+2026-03-06T06:46:23.109-06:00  INFO 26028 --- [employee_invex] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06T06:46:23.110-06:00  INFO 26028 --- [employee_invex] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-06T06:46:23.111-06:00  INFO 26028 --- [employee_invex] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-03-06T06:46:23.590-06:00  INFO 26028 --- [employee_invex] [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 292 ms
+2026-03-06T06:46:34.551-06:00  INFO 26028 --- [employee_invex] [http-nio-8080-exec-5] m.c.i.e.controller.EmployeeController    : REST request to get all employees
+2026-03-06T06:46:34.717-06:00  INFO 26028 --- [employee_invex] [http-nio-8080-exec-5] m.c.i.e.controller.EmployeeController    : Successfully retrieved 100 employees in 166ms
+2026-03-06T06:50:26.139-06:00  INFO 26028 --- [employee_invex] [http-nio-8080-exec-8] m.c.i.e.controller.EmployeeController    : REST request to get Employee ID: 1
+2026-03-06T06:50:26.153-06:00  INFO 26028 --- [employee_invex] [http-nio-8080-exec-8] m.c.i.e.controller.EmployeeController    : Successfully found employee: Luis Perez (ID: 1)
+2026-03-06T06:54:07.059-06:00  INFO 26028 --- [employee_invex] [http-nio-8080-exec-10] m.c.i.e.controller.EmployeeController    : REST request to search employees by name containing: 'luis'
+2026-03-06T06:54:07.077-06:00  INFO 26028 --- [employee_invex] [http-nio-8080-exec-10] m.c.i.e.controller.EmployeeController    : Found 14 employees matching 'luis' in 18ms
+2026-03-06T06:54:17.141-06:00  INFO 26028 --- [employee_invex] [http-nio-8080-exec-1] m.c.i.e.controller.EmployeeController    : REST request to search employees by name containing: 'Javier'
+2026-03-06T06:54:17.156-06:00  WARN 26028 --- [employee_invex] [http-nio-8080-exec-1] m.c.i.e.controller.EmployeeController    : No employees found matching name: 'Javier' (15ms)
+2026-03-06T06:54:24.312-06:00  INFO 26028 --- [employee_invex] [http-nio-8080-exec-2] m.c.i.e.controller.EmployeeController    : REST request to search employees by name containing: 'javier'
+2026-03-06T06:54:24.326-06:00  WARN 26028 --- [employee_invex] [http-nio-8080-exec-2] m.c.i.e.controller.EmployeeController    : No employees found matching name: 'javier' (14ms)
+2026-03-06T06:56:12.489-06:00  INFO 20960 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Starting EmployeeInvexApplication using Java 17 with PID 20960 (D:\Desarrollo\invex\employee_invex\target\classes started by Enrique in D:\Desarrollo\invex\employee_invex)
+2026-03-06T06:56:12.491-06:00  INFO 20960 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-03-06T06:56:12.537-06:00  INFO 20960 --- [employee_invex] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-06T06:56:12.538-06:00  INFO 20960 --- [employee_invex] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-06T06:56:13.392-06:00  INFO 20960 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-06T06:56:13.456-06:00  INFO 20960 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interface.
+2026-03-06T06:56:14.107-06:00  INFO 20960 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-06T06:56:14.121-06:00  INFO 20960 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-06T06:56:14.122-06:00  INFO 20960 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-06T06:56:14.181-06:00  INFO 20960 --- [employee_invex] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-06T06:56:14.181-06:00  INFO 20960 --- [employee_invex] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1642 ms
+2026-03-06T06:56:14.324-06:00  INFO 20960 --- [employee_invex] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-06T06:56:14.392-06:00  INFO 20960 --- [employee_invex] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-06T06:56:14.434-06:00  INFO 20960 --- [employee_invex] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-06T06:56:14.657-06:00  INFO 20960 --- [employee_invex] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-06T06:56:14.684-06:00  INFO 20960 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-06T06:56:14.963-06:00  INFO 20960 --- [employee_invex] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@44ac7009
+2026-03-06T06:56:14.966-06:00  INFO 20960 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-06T06:56:15.009-06:00  WARN 20960 --- [employee_invex] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-06T06:56:15.027-06:00  INFO 20960 --- [employee_invex] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-06T06:56:15.734-06:00  INFO 20960 --- [employee_invex] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-06T06:56:15.784-06:00  INFO 20960 --- [employee_invex] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T06:56:16.025-06:00  WARN 20960 --- [employee_invex] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-06T06:56:16.374-06:00  INFO 20960 --- [employee_invex] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-03-06T06:56:16.407-06:00  INFO 20960 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-03-06T06:56:16.417-06:00  INFO 20960 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Started EmployeeInvexApplication in 4.314 seconds (process running for 4.819)
+2026-03-06T06:56:21.056-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06T06:56:21.056-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-06T06:56:21.058-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-03-06T06:56:21.592-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 291 ms
+2026-03-06T06:56:31.548-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-5] m.c.i.e.controller.EmployeeController    : REST request to search employees by name containing: 'Javier'
+2026-03-06T06:56:31.687-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-5] m.c.i.e.controller.EmployeeController    : Found 16 employees matching 'Javier' in 139ms
+2026-03-06T06:59:05.127-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-7] m.c.i.e.controller.EmployeeController    : REST request to get Employee ID: 1
+2026-03-06T06:59:05.141-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-7] m.c.i.e.controller.EmployeeController    : Successfully found employee: Luis Perez (ID: 1)
+2026-03-06T07:01:59.301-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-9] m.c.i.e.controller.EmployeeController    : REST request to save Employee: Jaime Rosas [Position: Designer]
+2026-03-06T07:01:59.342-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-9] m.c.i.e.controller.EmployeeController    : Employee successfully persisted with ID: 129
+2026-03-06T07:03:30.343-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-1] m.c.i.e.controller.EmployeeController    : REST request to get Employee ID: 129
+2026-03-06T07:03:30.347-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-1] m.c.i.e.controller.EmployeeController    : Successfully found employee: Jaime Rosas (ID: 129)
+2026-03-06T07:07:01.001-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-3] m.c.i.e.controller.EmployeeController    : REST request to update Employee ID: 129 - Target: Luis PSG
+2026-03-06T07:07:34.031-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-4] m.c.i.e.controller.EmployeeController    : REST request to get Employee ID: 129
+2026-03-06T07:07:34.035-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-4] m.c.i.e.controller.EmployeeController    : Successfully found employee: Jaime Rosas (ID: 129)
+2026-03-06T07:07:37.890-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-5] m.c.i.e.controller.EmployeeController    : REST request to get Employee ID: 129
+2026-03-06T07:07:37.894-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-5] m.c.i.e.controller.EmployeeController    : Successfully found employee: Jaime Rosas (ID: 129)
+2026-03-06T07:07:38.898-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-6] m.c.i.e.controller.EmployeeController    : REST request to get Employee ID: 129
+2026-03-06T07:07:38.902-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-6] m.c.i.e.controller.EmployeeController    : Successfully found employee: Jaime Rosas (ID: 129)
+2026-03-06T07:07:39.458-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-7] m.c.i.e.controller.EmployeeController    : REST request to get Employee ID: 129
+2026-03-06T07:07:39.464-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-7] m.c.i.e.controller.EmployeeController    : Successfully found employee: Jaime Rosas (ID: 129)
+2026-03-06T07:07:39.782-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-8] m.c.i.e.controller.EmployeeController    : REST request to get Employee ID: 129
+2026-03-06T07:07:39.785-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-8] m.c.i.e.controller.EmployeeController    : Successfully found employee: Jaime Rosas (ID: 129)
+2026-03-06T07:07:40.043-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-9] m.c.i.e.controller.EmployeeController    : REST request to get Employee ID: 129
+2026-03-06T07:07:40.046-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-9] m.c.i.e.controller.EmployeeController    : Successfully found employee: Jaime Rosas (ID: 129)
+2026-03-06T07:07:40.359-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-10] m.c.i.e.controller.EmployeeController    : REST request to get Employee ID: 129
+2026-03-06T07:07:40.362-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-10] m.c.i.e.controller.EmployeeController    : Successfully found employee: Jaime Rosas (ID: 129)
+2026-03-06T07:09:38.672-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-2] m.c.i.e.controller.EmployeeController    : REST request to get all employees
+2026-03-06T07:09:38.687-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-2] m.c.i.e.controller.EmployeeController    : Successfully retrieved 101 employees in 15ms
+2026-03-06T07:21:07.251-06:00  INFO 20960 --- [employee_invex] [http-nio-8080-exec-4] m.c.i.e.controller.EmployeeController    : REST request to update Employee ID: 129 - Target: Luis PSG
+2026-03-06T07:25:06.808-06:00  INFO 4692 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Starting EmployeeInvexApplication using Java 17 with PID 4692 (D:\Desarrollo\invex\employee_invex\target\classes started by Enrique in D:\Desarrollo\invex\employee_invex)
+2026-03-06T07:25:06.810-06:00  INFO 4692 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-03-06T07:25:06.850-06:00  INFO 4692 --- [employee_invex] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-03-06T07:25:06.851-06:00  INFO 4692 --- [employee_invex] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-03-06T07:25:07.590-06:00  INFO 4692 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-06T07:25:07.648-06:00  INFO 4692 --- [employee_invex] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+2026-03-06T07:25:08.231-06:00  INFO 4692 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-06T07:25:08.243-06:00  INFO 4692 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-06T07:25:08.244-06:00  INFO 4692 --- [employee_invex] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.52]
+2026-03-06T07:25:08.300-06:00  INFO 4692 --- [employee_invex] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-06T07:25:08.301-06:00  INFO 4692 --- [employee_invex] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1450 ms
+2026-03-06T07:25:08.447-06:00  INFO 4692 --- [employee_invex] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-06T07:25:08.488-06:00  INFO 4692 --- [employee_invex] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.42.Final
+2026-03-06T07:25:08.527-06:00  INFO 4692 --- [employee_invex] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-06T07:25:08.754-06:00  INFO 4692 --- [employee_invex] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-06T07:25:08.781-06:00  INFO 4692 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-06T07:25:09.046-06:00  INFO 4692 --- [employee_invex] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51077877
+2026-03-06T07:25:09.048-06:00  INFO 4692 --- [employee_invex] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-06T07:25:09.095-06:00  WARN 4692 --- [employee_invex] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-03-06T07:25:09.125-06:00  INFO 4692 --- [employee_invex] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.4.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-03-06T07:25:09.841-06:00  INFO 4692 --- [employee_invex] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-06T07:25:09.895-06:00  INFO 4692 --- [employee_invex] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-06T07:25:10.184-06:00  WARN 4692 --- [employee_invex] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-06T07:25:10.516-06:00  INFO 4692 --- [employee_invex] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-03-06T07:25:10.547-06:00  INFO 4692 --- [employee_invex] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-03-06T07:25:10.557-06:00  INFO 4692 --- [employee_invex] [restartedMain] m.c.i.e.EmployeeInvexApplication         : Started EmployeeInvexApplication in 4.119 seconds (process running for 4.679)
+2026-03-06T07:25:20.999-06:00  INFO 4692 --- [employee_invex] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-06T07:25:20.999-06:00  INFO 4692 --- [employee_invex] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-06T07:25:21.000-06:00  INFO 4692 --- [employee_invex] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-03-06T07:25:21.125-06:00  INFO 4692 --- [employee_invex] [http-nio-8080-exec-1] m.c.i.e.controller.EmployeeController    : REST request to update Employee ID: 129 - Target: Luis PSG
+2026-03-06T07:25:39.172-06:00  INFO 4692 --- [employee_invex] [http-nio-8080-exec-3] m.c.i.e.controller.EmployeeController    : REST request to get Employee ID: 129
+2026-03-06T07:25:39.178-06:00  INFO 4692 --- [employee_invex] [http-nio-8080-exec-3] m.c.i.e.controller.EmployeeController    : Successfully found employee: Luis PSG (ID: 129)
+2026-03-06T07:27:14.520-06:00  INFO 4692 --- [employee_invex] [http-nio-8080-exec-4] m.c.i.e.controller.EmployeeController    : REST request to delete Employee with ID: 129
+2026-03-06T07:27:14.784-06:00  INFO 4692 --- [employee_invex] [http-nio-8080-exec-4] m.c.i.e.controller.EmployeeController    : Employee with ID: 129 successfully deleted
+2026-03-06T07:27:32.820-06:00  INFO 4692 --- [employee_invex] [http-nio-8080-exec-5] m.c.i.e.controller.EmployeeController    : REST request to get Employee ID: 129
+2026-03-06T07:27:32.830-06:00  WARN 4692 --- [employee_invex] [http-nio-8080-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [mx.com.invex.employee_invex.exceptions.EmployeeNotFoundException: Employee not found with id: 129]
